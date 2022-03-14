@@ -18,7 +18,7 @@
 
     "product-summary-buy-button":{
       "props":{
-        "buyButtonText": "qualquer coisa"
+        "buyButtonText": "COMPRAR"
       }
     },
   
@@ -44,16 +44,17 @@
         // "modal-trigger#quickview" // Check quickview.jsonc
       ]
     },
-  "vtex.product-highlights@2.x:product-highlights#novidades": {
-      "props": {
-        "type": "collection",
-        "blockClass": "novidades",
-        "filter": {
-          "type": "show",
-          "highlightNames": ["Novidades"]
-        }
-      },
-      "children": ["product-highlight-text#novidades"]
+    
+    "vtex.product-highlights@2.x:product-highlights#novidades": {
+        "props": {
+          "type": "collection",
+          "blockClass": "novidades",
+          "filter": {
+            "type": "show",
+            "highlightNames": ["Novidades"]
+          }
+        },
+        "children": ["product-highlight-text#novidades"]
     },
   
     "vtex.product-highlights@2.x:product-highlights#inovacao": {
