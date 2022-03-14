@@ -10,14 +10,15 @@
   
       "product-summary.shelf#demo1": {
        "children": [
-        "product-summary-image",
+        "stack-layout#prodsum",
+        "product-quantity",
         "product-summary-buy-button"
       ]
     },
 
     "product-summary-buy-button":{
       "props":{
-        "buyButtonText": "COMPRAR."
+        "buyButtonText": "qualquer coisa"
       }
     },
   
@@ -32,5 +33,50 @@
           "showNavigationArrows": "desktopOnly",
           "blockClass": "carousel"
         }
-     }
-  }
+     },
+
+
+     "stack-layout#prodsum": {
+      "children": [
+        "product-summary-image#shelf",
+        "vtex.product-highlights@2.x:product-highlights#novidades",
+        "vtex.product-highlights@2.x:product-highlights#inovacao"
+        // "modal-trigger#quickview" // Check quickview.jsonc
+      ]
+    },
+  "vtex.product-highlights@2.x:product-highlights#novidades": {
+      "props": {
+        "type": "collection",
+        "blockClass": "novidades",
+        "filter": {
+          "type": "show",
+          "highlightNames": ["Novidades"]
+        }
+      },
+      "children": ["product-highlight-text#novidades"]
+    },
+  
+    "vtex.product-highlights@2.x:product-highlights#inovacao": {
+      "props": {
+        "type": "collection",
+        "blockClass": "inovacao",
+        "filter": {
+          "type": "show",
+          "highlightNames": ["Inovação"]
+        }
+      },
+      "children": ["product-highlight-text#inovacao"]
+    },
+    "product-highlight-text#novidades": {
+      "props": {
+        "message": "{highlightName}",
+        "blockClass": "novidades"
+      }
+    },
+    "product-highlight-text#inovacao": {
+      "props": {
+        "message": "{highlightName}",
+        "blockClass": "inovacao"
+      }
+    }
+}
