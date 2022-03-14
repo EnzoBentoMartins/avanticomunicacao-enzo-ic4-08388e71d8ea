@@ -1,0 +1,173 @@
+{
+    "flex-layout.row#contSlider":{
+        "props":{
+            "blockClass": "contSlider"
+        },
+        "children":[
+            "flex-layout.col#subcontSlider"
+        ]
+    },
+    
+    "flex-layout.col#subcontSlider":{
+        "props":{
+            "blockClass": "subcontSlider"
+        },
+        "children": [
+            "rich-text#todDeps",
+            "slider-layout#sliderDeps"
+        ]
+    },
+
+    "rich-text#todDeps":{
+        "props":{
+            "blockClass": "todDeps",
+            "text": "TODOS OS DEPARTAMENTOS"
+        }
+    },
+
+    "slider-layout#sliderDeps": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 7,
+            "tablet": 3,
+            "phone": 3
+          },
+          "infinite": true,
+          "showNavigationArrows": "desktopOnly",
+          "blockClass": "sliderDeps"
+        },
+        "children": [
+            "image#dep1", 
+            "image#dep2",
+            "image#dep3",
+            "image#dep4",
+            "image#dep5",
+            "image#dep6",
+            "image#dep7",
+            "image#dep8"
+        ]
+      },
+
+      "image#dep1":{
+          "props":{
+              "blockClass": "dep1",
+              "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/clothes___c3a9e2e14650448ec2511a871e1b8568.png"
+          }
+      },
+
+      "image#dep2":{
+        "props":{
+            "blockClass": "dep2",
+            "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/smartwatch___dcc5f4d8efde59888190c4ad91ee1ce0.png"
+        }
+    },
+
+    "image#dep3":{
+        "props":{
+            "blockClass": "dep3",
+            "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/jackets___8b8d3dde6a1c7802a00d6cc0e6a2c2c1.png"
+        }
+    },
+
+    "image#dep4":{
+        "props":{
+            "blockClass": "dep4",
+            "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/glasses___342c25abe1df1d99d53c5e09ea652c90.png"
+        }
+    },
+
+    "image#dep5":{
+        "props":{
+            "blockClass": "dep5",
+            "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/hoodies___4e14fd67b7ec0ddf2c987386cb420ebf.png"
+        }
+    },
+
+    "image#dep6":{
+        "props":{
+            "blockClass": "dep6",
+            "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/logo-games___c72de2ef5698ce580a860ff3d64f241a.png"
+        }
+    },
+
+    "image#dep7":{
+        "props":{
+            "blockClass": "dep7",
+            "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/masks___fdf8856004208fc37f1d6c12717a7084.png"
+        }
+    },
+
+    "image#dep8":{
+        "props":{
+            "blockClass": "dep8",
+            "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/electronics___9ebae85c4364fac363971a1c30d7cd2d.png"
+        }
+    }
+
+    // "flex-layout.row#vitrineLayout1":{
+    //     "props":{
+    //         "blockClass":"vitrineLayout1"
+    //     },
+    //     "children":[
+    //         "slider-layout#sliderVit"
+    //     ]
+    // },
+
+    // "slider-layout#sliderVit": {
+    //     "props": {
+    //       "itemsPerPage": {
+    //         "desktop": 4,
+    //         "tablet": 1,
+    //         "phone": 1
+    //       },
+    //       "infinite": true,
+    //       "showNavigationArrows": "desktopOnly",
+    //       "blockClass": "sliderDeps"
+    //     },
+    //     "children": [
+    //         "image#vit1", 
+    //         "image#vit2",
+    //         "image#vit3",
+    //         "image#vit4",
+    //         "image#vit5",
+    //         "image#vit6",
+    //         "image#vit7",
+    //         "image#vit8"
+    //     ]
+    //   }
+
+
+
+}
+// cod vitrine
+// {
+//     "flex-layout.row#wrapperVitrini1":{
+//         "props":{
+//             "blockClass": "wrapperVitrini1"
+//         },
+//         "children": ["list-context.product-list#demo1"]
+//     },
+//     "list-context.product-list#demo1": {
+//         "blocks": ["product-summary.shelf"],
+//         "children": ["slider-layout#demo-products"],
+//         "props": {
+//             "orderBy": "OrderByTopSaleDESC"
+//         }
+//     },
+//     "slider-layout#demo-products": {
+//         "props": {
+//             "itemsPerPage": {
+//                 "desktop": 5,
+//                 "tablet": 3,
+//                 "phone": 1
+//             },
+//             "infinite": true,
+//             "fullWidth": false,
+//             "blockClass": "shelf"
+//         },
+//         "children":[
+//             ""
+//         ]
+
+//   }
+// }

@@ -1,0 +1,23 @@
+@media (max-width:500px) {
+    .container--rev-rep{
+        display: none;
+    }
+
+    .container--freteGratis{
+        max-width: 626px;
+        width: 100%;
+        height: 32px;
+        padding: 0px;
+    }
+
+    .paragraph--freteGratis{
+        max-width: 626px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .wrapper--freteGratis{
+        max-width: 414px;
+        width: 100%;
+    }
+}

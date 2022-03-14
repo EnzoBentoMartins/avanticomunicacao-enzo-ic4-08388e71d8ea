@@ -1,0 +1,167 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    }
+  },
+  "menu-item#menuNovidades": {
+    "props": {
+      "blockClass": "menuNovidades",
+      "id": "menu-item-category-apparel",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/",
+        "noFollow": false,
+        "tagTitle": "NOVIDADES",
+        "text": "NOVIDADES"
+      }
+    }
+  },
+ 
+  "menu-item#menuHome": {
+    "props": {
+      "blockClass": "menuHome",
+      "id": "menu-item-category-home",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home---decor/",
+        "noFollow": false,
+        "tagTitle": "OUTLET",
+        "text": "OUTLET"
+      }
+    }
+  },
+  "menu-item#mobileDep1": {
+    "props": {
+      "blockClass": "mobileDep1",
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Departamento 1",
+        "text": "Departamento 1",
+        "iconPosition": "right"
+      },
+      "iconProps": {
+        "id": "nav-caret--down",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "black",
+        "mutedClassName": "c-action-primary"
+      }
+    }
+  },
+
+  "menu-item#mobileDep2": {
+    "props": {
+      "blockClass": "mobileDep2",
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Departamento 2",
+        "text": "Departamento 2",
+        "iconPosition": "right"
+      },
+      "iconProps": {
+        "id": "nav-caret--down",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "black",
+        "mutedClassName": "c-action-primary"
+        }
+      }
+    },
+    
+  
+  "menu-item#mobileDep3": {
+    "props": {
+      "blockClass": "mobileDep3",
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Departamento 3",
+        "text": "Departamento 3",
+        "iconPosition": "right"
+      },
+      "iconProps": {
+        "id": "nav-caret--down",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "black",
+        "mutedClassName": "c-action-primary"
+      }
+    }
+    
+  },
+  "menu-item#mobileDep4": {
+    "props": {
+      "blockClass": "mobileDep4",
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Departamento 4",
+        "text": "Departamento 4",
+        "iconPosition": "right"
+      },
+      "iconProps": {
+        "id": "nav-caret--down",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "black",
+        "mutedClassName": "c-action-primary"
+      }
+    }
+    
+  },
+  "menu-item#mobileDep5": {
+    "props": {
+      "blockClass": "mobileDep5",
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Departamento 5",
+        "text": "Departamento 5",
+        "iconPosition": "right"
+      },
+      "iconProps": {
+        "id": "nav-caret--down",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "black",
+        "mutedClassName": "c-action-primary"
+      }
+    }
+    
+  }
+  
+}

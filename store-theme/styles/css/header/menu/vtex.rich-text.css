@@ -1,0 +1,57 @@
+.container--dep2{
+    height: 37px;
+    margin: auto;
+    color: #25282A;
+    width: 291px;
+}
+
+.container--dep3{
+    height: 37px;
+    margin: auto;
+    color: #25282A;
+    width: 291px;
+}
+
+.container--novidades{
+    height: 37px;
+    margin: auto;
+    color: #25282A;
+    width: 291px;
+    font-weight: bold;
+}
+
+.paragraph--novidades{
+    font-size: 17px;
+}
+
+.container--outlet{
+    height: 37px;
+    margin: auto;
+    color: #441AFA;
+    width: 291px;
+    font-weight: bold;
+}
+
+.paragraph--outlet{
+    font-size: 17px;
+}
+
+.image--login{
+    width: 18px;
+    margin: auto;
+}
+
+.container--titleDep4, .container--titleCat3{
+    font-weight: bold;
+    color: #441AFA;
+    margin-left: 10px;
+}
+
+.container--todDeps{
+    width: 1252px;
+    margin: auto;
+}
+
+.wrapper--todDeps{
+    margin: auto;
+}

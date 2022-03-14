@@ -1,0 +1,201 @@
+{
+    "slider-layout#text-test": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+          "arrowSize": 0,
+          "infinite": true,
+          "showNavigationArrows": "desktopOnly",
+          "blockClass": "carousel"
+        },
+        "children": ["image#img1", "image#img2"]
+      },
+      
+      "image#img1":{
+          "props":{
+              "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/shopnow___ca5adb32114c61df7af1b3e97ac0d5ac.png",
+              "maxHeight": 460,
+              "blockClass": "img1"
+          }
+      },
+
+      "image#img2":{
+        "props":{
+            "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/shopnow___ca5adb32114c61df7af1b3e97ac0d5ac.png",
+            "maxHeight": 460,
+            "blockClass": "img2"
+        }
+      },
+
+      "flex-layout.row#servBar":{
+        "props":{
+          "blockClass": "servBar"
+        },
+        "children":[
+          "rich-text#freteBox",
+          "rich-text#trocaBox",
+          "rich-text#cardBox",
+          "rich-text#parcBox"
+        ]
+      },
+
+      "rich-text#freteBox":{
+        "props":{
+          "blockClass": "freteBox",
+          "text": "![frete](https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/box___65d806e224223663fb66f77ab982cae4.png)**FRETE GRATIS** ACIMA DE R$299"
+        }
+      },
+
+      "rich-text#trocaBox":{
+        "props":{
+          "blockClass": "trocaBox",
+          "text": "![troca](https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/exchange___a87354332bb2f428bff1e18a2ee77b0b.png)**PRIMEIRA TROCA** GRATIS"
+        }
+      },
+
+      "rich-text#cardBox":{
+        "props":{
+          "blockClass": "cardBox",
+          "text": "![card](https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/credit-card___da1c0c2a3c24d8824d8a756e83f2c780.png)**ATÉ 12X SEM JUROS** NOS CARTÕES"
+        }
+      },
+
+      "rich-text#parcBox":{
+        "props":{
+          "blockClass": "parcBox",
+          "text": "![parc](https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/shopping___eb04277bb43b9b619034d4c7336056d0.png)**ENCONTRE UM** PARCEIRO VOLLO"
+        }
+      },
+
+      "flex-layout.row#imgLink":{
+        "props":{
+          "blockClass": "imgLink"
+        },
+        "children":[
+          "image#linkImg1",
+          "image#linkImg2"
+        ]
+      },
+
+      "image#linkImg1":{
+        "props":{
+          "blockClass": "linkImg1",
+          "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/mobile/Componente-7281___328c96c5721cb5497e1f0d655e7b8380.png",
+          "maxHeight": 569,
+          "link":{
+            "url": "https://www.google.com.br/"
+          }
+        }
+      },
+
+      "image#linkImg2":{
+        "props":{
+          "blockClass": "linkImg2",
+          "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/mobile/Componente73-12___b0f60b0e6f46868049d3ae6614b92d72.png",
+          "maxHeight": 569,
+          "link":{
+            "url": "https://www.google.com.br/"
+          }
+        }
+      },
+
+      "rich-text#nomeBanner":{
+        "props":{
+          "blockClass": "nomeBanner",
+          "text": "TÍTULO DE BANNERS"
+        }
+      },
+
+      "flex-layout.row#wrapperPodutos":{
+        "props":{
+          "blockClass": "wrapperProdutos"
+        },
+        "children":[
+          "flex-layout.col#colP1",
+          "flex-layout.col#colP2",
+          "flex-layout.col#colP3"
+        ]
+      },
+
+      "flex-layout.col#colP1":{
+        "props":{
+          "blockClass": "colP1"
+        },
+        "children":[
+          "image#img1P1",
+          "image#img2P1"
+        ]
+      },
+
+      "image#img1P1":{
+        "props":{
+          "blockClass": "img1P1",
+          "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/group1-electronics___56fcf71c5dcfd65f5f1ee30acd615967.png"
+        }
+      },
+
+      "image#img2P1":{
+        "props":{
+          "blockClass": "img2P1",
+          "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/group1-perfume___461b939c13a1881cd661931f7e2f30ee.png"
+        }
+      },
+
+      "flex-layout.col#colP2":{
+        "props":{
+          "blockClass": "colP2"
+        },
+        "children":[
+          "image#img1P2",
+          "image#img2P2"
+        ]
+      },
+
+      "image#img1P2":{
+        "props":{
+          "blockClass": "img1P2",
+          "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/group1-clothes___f5a5b47c788f48129bba9c147da1333f.png"
+        }
+      },
+
+      "image#img2P2":{
+        "props":{
+          "blockClass": "img2P2",
+          "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/group1-cosmetics___424157b7dbd1d7e4aaf5a069c79ad12e.png"
+        }
+      },
+
+      "flex-layout.col#colP3":{
+        "props":{
+          "blockClass": "colP3"
+        },
+        "children":[
+          "image#img1P3",
+          "image#img2P3"
+        ]
+      },
+
+      "image#img1P3":{
+        "props":{
+          "blockClass": "img1P3",
+          "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/group1-glasses___0673ff10ddf8b686fee40da9df739ac0.png"
+        }
+      },
+
+      "image#img2P3":{
+        "props":{
+          "blockClass": "img2P3",
+          "src": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/group1-sneakers___8724f5d5e4923cfea3dc5103cdf5b6ce.png"
+        }
+      },
+
+      "rich-text#vitrine1":{
+        "props":{
+          "blockClass": "vitrine1",
+          "text": "VITRINE 1"
+        }
+      }
+}

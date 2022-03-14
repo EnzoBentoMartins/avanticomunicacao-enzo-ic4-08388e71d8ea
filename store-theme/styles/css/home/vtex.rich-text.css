@@ -1,0 +1,91 @@
+.paragraph--freteBox{
+    font-size: 12px;
+    margin-top: -10px;
+}
+
+.wrapper--freteBox{
+    text-align: center;
+    margin: auto;
+}
+
+.image--freteBox{
+    margin-right: 5px;
+    position: relative;
+    top: 10px;
+}
+
+.paragraph--trocaBox{
+    font-size: 12px;
+    margin-top: -7px;
+}
+
+.wrapper--trocaBox{
+    text-align: center;
+    margin: auto;
+}
+
+.image--trocaBox{
+    margin-right: 5px;
+    position: relative;
+    top: 10px;
+}
+
+.paragraph--cardBox{
+    font-size: 12px;
+    margin-top: -2px;
+}
+
+.wrapper--cardBox{
+    text-align: center;
+    margin: auto;
+}
+
+.image--cardBox{
+    margin-right: 5px;
+    position: relative;
+    top: 6px;
+}
+
+.paragraph--parcBox{
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.wrapper--parcBox{
+    text-align: center;
+    margin: auto;
+}
+
+.image--parcBox{
+    margin-right: 5px;
+    position: relative;
+    top: 10px;
+}
+
+.wrapper--nomeBanner{
+    margin: auto;
+}
+
+.container--nomeBanner{
+    margin-top: 60px;
+}
+
+.paragraph--nomeBanner{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.wrapper--vitrine1{
+    margin: auto;
+}
+
+.paragraph--vitrine1{
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1.6px;
+}
+
+.container--vitrine1{
+    margin-top: 80px;
+    margin-bottom: 40px;
+}

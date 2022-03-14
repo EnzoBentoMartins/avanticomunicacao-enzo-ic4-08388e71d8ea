@@ -1,0 +1,29 @@
+{
+    "flex-layout.row#top-bar":{
+        "props":{
+            "fullWidth": true,
+            "blockClass": "wrapper__top-bar"
+        },
+        "children":[
+            "rich-text#frete-gratis",
+            "rich-text#rev-rep"
+        ]
+    },
+
+    "rich-text#frete-gratis":{
+        "props":{
+            "blockClass": "freteGratis",
+            "textAlignment": "center",
+            "text": "Frete Gratis acima de R$299,00 para região Sudeste.",
+            "textPosition": "CENTER"
+        }
+    },
+
+    "rich-text#rev-rep":{
+        "props":{
+            "blockClass": "rev-rep",
+            "text": "SEJA UM REVENDEDOR | SEJA UM REPRESENTANTE.",
+            "textPosition": "CENTER"
+        }
+    }
+}

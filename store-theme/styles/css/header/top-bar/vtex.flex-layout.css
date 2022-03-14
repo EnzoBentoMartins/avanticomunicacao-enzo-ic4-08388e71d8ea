@@ -1,0 +1,12 @@
+.flexRowContent--wrapper__top-bar{
+    background-color: black;
+    max-width: 1252px;
+    width: 100%;
+    height: 32px;
+    margin: auto;
+}
+
+.flexRow--wrapper__top-bar{
+    background-color: black;
+}
+

@@ -1,0 +1,21 @@
+.flexRow--servBar{
+    width: 1252px;
+    height: 64px;
+    margin: auto;
+    background-color: #EEEEEE;
+    margin-top: 10px;
+}
+
+.flexRow--wrapperProdutos{
+    width: 1252px;
+    margin: auto;
+}
+
+.flexRow--imgLink{
+    width: 1252px;
+    margin: auto;
+}
+
+.slideChildrenContainer--carousel{
+    height: 459px;
+}

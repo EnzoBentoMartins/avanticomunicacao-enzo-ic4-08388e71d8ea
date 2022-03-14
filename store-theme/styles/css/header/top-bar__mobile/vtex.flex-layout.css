@@ -1,0 +1,7 @@
+@media (max-width:500px) {
+
+    .flexRowContent--wrapper__top-bar{
+        max-width: 626px;
+        width: 100%;
+    }
+}

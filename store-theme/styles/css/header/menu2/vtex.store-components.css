@@ -1,0 +1,48 @@
+.infoCardContainer{
+    height: 706px;
+    margin-top: 80px;
+}
+
+.infoCardTextContainer{
+    width: 474px;
+    height: 302px;
+    margin: auto;
+    text-align: left;
+}
+
+.infoCardSubhead{
+    text-align: left;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #B1B3B3;
+    font-size: 12px;
+}
+
+.infoCardHeadline{
+    width: 474px;
+    text-align: left;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+    color: #441AFA;
+}
+
+.infoCardCallActionContainer{
+    border-radius: 0px;
+    background-color: transparent;
+    font-size: 12px;
+    color: black;
+}
+
+.infoCardCallActionContainer--infoCard1
+:global(.vtex-button),
+:global(.vtex-button__label){
+    border-radius: 0px;
+    background-color: transparent;
+    font-size: 12px;
+    color: black;
+    border-color: black;
+    height: 48px;
+    letter-spacing: 1.2px;
+}
+

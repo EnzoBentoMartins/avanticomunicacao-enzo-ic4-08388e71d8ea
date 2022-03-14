@@ -1,0 +1,36 @@
+// Estudar shelf
+{
+    "list-context.product-list#demo1": {
+      "blocks": [
+          "product-summary.shelf#demo1"
+        ],
+      "children": ["slider-layout#demo-products"]
+  
+    },
+  
+      "product-summary.shelf#demo1": {
+       "children": [
+        "product-summary-image",
+        "product-summary-buy-button"
+      ]
+    },
+
+    "product-summary-buy-button":{
+      "props":{
+        "buyButtonText": "COMPRAR"
+      }
+    },
+  
+     "slider-layout#demo-products": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 2
+          },
+          "infinite": true,
+          "showNavigationArrows": "desktopOnly",
+          "blockClass": "carousel"
+        }
+     }
+  }

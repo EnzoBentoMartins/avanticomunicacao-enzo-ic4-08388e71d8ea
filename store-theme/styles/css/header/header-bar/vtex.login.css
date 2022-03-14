@@ -1,0 +1,24 @@
+.label{
+    display: none;
+}
+
+.container{
+    max-width: 60px;
+    margin-left: 560px;
+}
+
+.profileIcon{
+    color: transparent;
+    background-image: url(https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/user___f311137127224b10917945e6b0a15072.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 28px;
+    height: 28.69px;
+}
+
+
+/* :global(.vtex-button__label),
+:global(.vtex-login-2-x-profileIcon),
+:global(.vtex-login-2-x-label){
+      width: 40px;
+  } */

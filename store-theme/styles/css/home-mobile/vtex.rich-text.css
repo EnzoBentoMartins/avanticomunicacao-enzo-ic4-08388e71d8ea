@@ -1,0 +1,13 @@
+@media (max-width:500px){
+    .container--cardBox,
+    .container--trocaBox,
+    .container--parcBox{
+        display: inline-block;
+    }
+
+    .container--todDeps{
+        max-width: 372px;
+        font-weight: bold;
+    }
+
+}

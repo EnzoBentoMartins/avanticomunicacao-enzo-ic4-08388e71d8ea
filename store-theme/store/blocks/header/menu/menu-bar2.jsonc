@@ -1,0 +1,458 @@
+{
+    "responsive-layout.desktop#desktop":{
+        "children":[
+            "flex-layout.row#menuBar2"
+        ]
+    },
+
+    "flex-layout.row#menuBar2":{
+        "props":{
+            "blockClass": "menuBar2"
+        },
+        "children": [
+            "vtex.menu@2.x:menu#websites"
+        ]
+    },
+
+    "vtex.menu@2.x:menu#websites":{
+        "children":[
+            "menu-item#tDeps",
+            "menu-item#depMenu1",
+            "menu-item#depMenu2",
+            "rich-text#novidades",
+            "rich-text#outlet"
+        ],
+        "props":{
+            "blockClass":"classMenu"
+        }
+    },
+
+    "menu-item#tDeps":{
+        "props":{
+            "blockClass": "tDeps",
+            "id": "TDEPS",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "TODOS OS DEPARTAMENTOS",
+                "text": "TODOS OS DEPARTAMENTOS"
+            }
+            
+        },
+        "blocks": ["vtex.menu@2.x:submenu#tDeps2"]
+    },
+
+    "vtex.menu@2.x:submenu#tDeps2": {
+        "props":{
+            "blockClass": "submenuW"
+        },
+        "children": [
+          "vtex.menu@2.x:menu#submenushop"
+        ]
+    },
+    "vtex.menu@2.x:menu#submenushop": {
+        "props":{
+            "blockClass": "submenuShop"
+        },
+        "children": [
+          "flex-layout.col#subMenu"
+        ]
+    },
+
+    "flex-layout.col#subMenu":{
+        "props":{
+            "blockClass": "subMenu"
+        },
+        "children":[
+            "menu-item#dep1",
+            "menu-item#dep2",
+            "menu-item#dep3",
+            "menu-item#dep4",
+            "menu-item#dep5",
+            "menu-item#dep6"
+        ]
+    },
+
+    "menu-item#depMenu1":{
+        "props":{
+            "blockClass": "depMenu1",
+            "id": "dep1",
+            "type":"custom",
+            "highlight": false,
+            "itemProps":{
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Departamento 1",
+                "text": "Departamento 1",
+                "iconPosition":"right"
+            }
+        }
+    },
+
+    "menu-item#depMenu2":{
+        "props":{
+            "blockClass": "depMenu2",
+            "id": "dep2",
+            "type":"custom",
+            "highlight": false,
+            "itemProps":{
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Departamento 2",
+                "text": "Departamento 2",
+                "iconPosition":"right"
+            }
+        }
+    },
+
+    "menu-item#dep1":{
+        "props":{
+            "blockClass": "dep1",
+            "id": "dep1",
+            "type":"custom",
+            "highlight": false,
+            "itemProps":{
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Departamento 1",
+                "text": "Departamento 1",
+                "iconPosition":"right"
+            },
+            "iconProps": {
+                "id": "nav-caret--right",
+                "size": 16,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "black",
+                "mutedClassName": "c-action-primary"
+            }
+        }
+    },
+
+    "menu-item#dep2":{
+        "props":{
+            "blockClass": "dep2",
+            "id": "dep2",
+            "type":"custom",
+            "highlight": false,
+            "itemProps":{
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Departamento 2",
+                "text": "Departamento 2",
+                "iconPosition":"right"
+            },
+            "iconProps": {
+                "id": "nav-caret--right",
+                "size": 16,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "black",
+                "mutedClassName": "c-action-primary"
+            }
+        }
+    },
+
+    "menu-item#dep3":{
+        "props":{
+            "blockClass": "dep3",
+            "id": "dep3",
+            "type":"custom",
+            "highlight": false,
+            "itemProps":{
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Departamento 3",
+                "text": "Departamento 3",
+                "iconPosition":"right"
+            },
+            "iconProps": {
+                "id": "nav-caret--right",
+                "size": 16,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "black",
+                "mutedClassName": "c-action-primary"
+            }
+        }
+        
+    },
+
+    
+    "menu-item#dep4":{
+        "props":{
+            "itemProps":{
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Departamento 4",
+                "text": "Departamento 4",
+                "iconPosition": "right"
+            },
+            "blockClass": "dep4",
+            "id": "dep4",
+            "type":"custom",
+            "highlight": false,
+            "iconProps": {
+                "id": "nav-caret--right",
+                "size": 16,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "black",
+                "mutedClassName": "c-action-primary"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#subDeps4"]
+    },
+
+    "vtex.menu@2.x:submenu#subDeps4":{
+        "props":{
+            "blockClass": "tDeps3"
+        },
+        "children":["vtex.menu@2.x:menu#submenushop2"]
+    },
+
+    "vtex.menu@2.x:menu#submenushop2": {
+        "children": [
+            "flex-layout.col#subMenu2"
+        ]
+    },
+
+    "flex-layout.col#subMenu2":{
+        "children":[
+            "rich-text#titleDep4",
+            "menu-item#cat1",
+            "menu-item#cat2",
+            "menu-item#cat3",
+            "menu-item#cat4",
+            "link#verTodos"
+        ]
+    },
+
+    "rich-text#titleDep4":{
+        "props":{
+            "blockClass": "titleDep4",
+            "text": "Departamento 4",
+            "textAlignmemt":"CENTER"
+        }
+    },
+
+    "menu-item#cat1":{
+        "props":{
+            "itemProps":{
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Categoria 1",
+                "text": "Categoria 1",
+                "iconPosition": "right"
+            },
+            "iconProps": {
+                "id": "nav-caret--right",
+                "size": 16,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "black",
+                "mutedClassName": "c-action-primary"
+            },
+            "blockClass": "cat1"
+        }
+    },
+
+    "menu-item#cat2":{
+        "props":{
+            "itemProps":{
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Categoria 2",
+                "text": "Categoria 2",
+                "iconPosition": "right"
+            },
+            "iconProps": {
+                "id": "nav-caret--right",
+                "size": 16,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "black",
+                "mutedClassName": "c-action-primary"
+            },
+            "blockClass": "cat2"
+        }
+    },
+
+    "menu-item#cat3":{
+        "props":{
+            "itemProps":{
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Categoria 3",
+                "text": "Categoria 3",
+                "iconPosition": "right"
+            },
+            "iconProps": {
+                "id": "nav-caret--right",
+                "size": 16,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "black",
+                "mutedClassName": "c-action-primary"
+            },
+            "blockClass": "cat3"
+        }
+    },
+
+    "menu-item#cat4":{
+        "props":{
+            "itemProps":{
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Categoria 4",
+                "text": "Categoria 4",
+                "iconPosition": "right"
+            },
+            "iconProps": {
+                "id": "nav-caret--right",
+                "size": 16,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "black",
+                "mutedClassName": "c-action-primary"
+            },
+            "blockClass": "cat4"
+        },
+        "blocks":["vtex.menu@2.x:submenu#subDeps3"]
+    },
+
+    "vtex.menu@2.x:submenu#subDeps3":{
+        "children":["vtex.menu@2.x:menu#submenushop3"],
+        "props":{"blockClass": "subDeps3"}
+        
+    },
+
+    "vtex.menu@2.x:menu#submenushop3": {
+        "children": [
+            "flex-layout.col#subMenu3"
+        ]
+    },
+
+    "flex-layout.col#subMenu3": {
+        "children":[
+            "rich-text#titleCat3",
+            "menu-item#subCat1",
+            "menu-item#subCat2",
+            "menu-item#subCat3",
+            "link#verTodos"
+        ],
+        "props":{"blockClass": "subMenu3"}
+        
+    },
+
+    "rich-text#titleCat3":{
+        "props":{
+            "blockClass": "titleCat3",
+            "text": "Categoria 4",
+            "textAlignmemt":"CENTER"
+        }
+    },
+
+    "menu-item#subCat1":{
+        "props":{
+            "itemProps":{
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Subcategoria 1",
+                "text": "Subcategoria 1",
+                "iconPosition": "right"
+            },
+            "blockClass": "subCat1"
+        }
+    },
+
+    "menu-item#subCat2":{
+        "props":{
+            "itemProps":{
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Subcategoria 2",
+                "text": "Subcategoria 2",
+                "iconPosition": "right"
+            },
+            "blockClass": "subCat2"
+        }
+    },
+
+    "menu-item#subCat3":{
+        "props":{
+            "itemProps":{
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Subcategoria 3",
+                "text": "Subcategoria 3",
+                "iconPosition": "right"
+            },
+            "blockClass": "subCat3"
+        }
+    },
+
+    "link#verTodos":{
+        "props":{
+            "blockClass": "verTodos",
+            "label": "ver todos"
+        }
+    },
+
+    "menu-item#dep5":{
+        "props":{
+            "itemProps":{
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Departamento 5",
+                "text": "Departamento 5"
+            },
+            "blockClass": "dep5",
+            "id": "dep5",
+            "type":"custom",
+            "highlight": false
+        }
+    },
+
+    "menu-item#dep6":{
+        "props":{
+            "itemProps":{
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Departamento 6",
+                "text": "Departamento 6"
+            },
+            "blockClass": "dep6",
+            "id": "dep6",
+            "type":"custom",
+            "highlight": false
+        }
+    },
+
+
+    "rich-text#novidades":{
+        "props":{
+            "blockClass": "novidades",
+            "text": "NOVIDADES",
+            "textPosition": "CENTER"
+        }
+    },
+
+    "rich-text#outlet":{
+        "props":{
+            "blockClass" : "outlet",
+            "text": "OUTLET",
+            "textPosition": "CENTER"
+        }
+    }
+}

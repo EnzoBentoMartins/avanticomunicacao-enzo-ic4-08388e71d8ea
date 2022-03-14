@@ -1,0 +1,28 @@
+{
+
+  "flex-layout.row#cardWrapper":{
+    "props":{
+      "blockClass": "cardWrapper"
+    },
+    "children":[
+      "info-card#infoHome"
+    ]
+  },
+
+  "info-card#infoHome": {
+      "props": {
+        "isFullModeStyle": false,
+        "textPosition": "right",
+        "imageUrl": "https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/SEO___c09ccb96ccd54e7235cd9228dbdfe653.png",
+        "headline": "Lorem Ipsum",
+        "subhead": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea.",
+        "callToActionMode": "button",
+        "callToActionText": "LOREM IPSUM",
+        "callToActionUrl": "/sale/d",
+        "textAlignment": "left",
+        "blockClass": "infoCard1"
+      }
+    }
+}
+
+ 

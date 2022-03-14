@@ -1,0 +1,19 @@
+.flexRowContent--headerDesktop{
+    width: 100%;
+}
+
+.flexRow--headerBar{
+    background-color: #EEEEEE;
+    height: 80px;
+    max-width: 1252px;
+    width: 100%;
+    position: sticky;
+}
+
+.flexRow--headerDesktop{
+    background-color: #EEEEEE;
+}
+
+.stretchChildrenWidth{
+    width: 100%;
+}

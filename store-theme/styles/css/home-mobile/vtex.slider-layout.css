@@ -1,0 +1,13 @@
+@media (max-width:500px){
+    .sliderLayoutContainer--sliderDeps{
+        max-width: 372px;
+    }
+
+    .sliderLayoutContainer{
+        padding-top: 10px;
+    }
+
+    .sliderLayoutContainer--carousel{
+        padding-top: 0;
+    }
+}

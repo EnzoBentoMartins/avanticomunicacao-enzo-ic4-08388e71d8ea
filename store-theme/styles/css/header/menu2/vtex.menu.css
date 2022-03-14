@@ -1,0 +1,112 @@
+.menuItem--tDeps{
+    background-color: #441AFA;
+    width: 310px;
+    margin-left: -25px;
+}
+
+.menuItem{
+    width: 298px;
+    height: 50px;
+}
+
+.styledLinkContent--tDeps{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    width: 230px;
+}
+
+.styledLinkContent--tDeps::before{
+    content: "";
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+    background-image: url("https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/desktop/menu-branco___d782ee8899a81fa256d85766cd68e76d.png");
+    background-position: 50% center;
+    background-repeat: no-repeat;
+}
+
+.styledLinkContent--dep1:hover,
+.styledLinkContent--dep2:hover,
+.styledLinkContent--dep3:hover,
+.styledLinkContent--dep4:hover,
+.styledLinkContent--cat1:hover,
+.styledLinkContent--cat2:hover,
+.styledLinkContent--cat3:hover,
+.styledLinkContent--cat4:hover{
+    color: #441AFA;
+    font-weight: bold;
+}
+
+.menuContainer--classMenu{
+    margin: auto;
+    width: 1200px;
+}
+
+.menuContainerNav--classMenu{
+    max-height: 40px;
+    height: 100%;
+    max-width: 1252px;
+    width: 100%;
+    padding: 0px;
+}
+
+.menuItem--depMenu1,
+ .menuItem--depMenu2{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 80px;
+}
+
+.menuItem--depMenu1:hover,
+ .menuItem--depMenu2:hover{
+     background-color: gray;
+ }
+
+.submenuWrapper{
+    height: 366px;
+}
+
+.submenuWrapper--tDeps3{
+    position: absolute;
+    left: 100%;
+    top: -217px;
+}
+
+.submenuWrapper--subDeps3{
+    position: absolute;
+    left: 100%;
+    top: -273px;
+}
+
+.styledLinkContainer{
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+.menuItem--dep1:hover,
+ .menuItem--dep2:hover,
+ .menuItem--dep3:hover,
+ .menuItem--dep4:hover,
+ .menuItem--cat1:hover,
+ .menuItem--cat2:hover,
+ .menuItem--cat3:hover,
+ .menuItem--cat4:hover{
+     background-color: #EEEEEE;
+     color: #441AFA;
+ }
+
+.styledLinkContent--dep1,
+.styledLinkContent--dep2,
+.styledLinkContent--dep3,
+.styledLinkContent--dep4,
+.styledLinkContent--dep5,
+.styledLinkContent--dep6,
+.styledLinkContent--cat1,
+.styledLinkContent--cat2,
+.styledLinkContent--cat3,
+.styledLinkContent--cat4{
+    padding-top: 18px;
+}

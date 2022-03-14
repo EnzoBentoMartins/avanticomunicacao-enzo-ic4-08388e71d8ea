@@ -1,0 +1,18 @@
+.sliderLayoutContainer{
+    padding-top: 10px;
+    background-color: #FFFFFF;
+}
+
+.sliderLayoutContainer--carrosselDep{
+    height: 169px;
+}
+
+.paginationDot--isActive{
+    background-color: black;
+}
+
+.sliderLayoutContainer--carousel{
+    max-width: 1252px;
+    width: 100%;
+    margin: auto;
+}

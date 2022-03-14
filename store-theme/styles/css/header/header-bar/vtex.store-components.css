@@ -1,0 +1,43 @@
+.searchBarIcon{
+    background-color: #441AFA;
+    width: 48px;
+    right: 100%;
+    border-radius: 0;
+}
+
+.searchBarIcon--clear{
+    display: none;
+}
+
+.searchIcon{
+    margin: auto;
+    color: #FFFFFF;
+}
+
+.searchBarInnerContainer
+.autoCompleteOuterContainer--header-search :global(.vtex-styleguide-9-x-input),
+:global(.vtex-input-prefix__group){
+    border: none;
+    border-radius: 0;
+}
+
+.logoLink--logoDesk{
+    margin: auto;
+}
+
+.logoImage{
+    margin-left: -23px;
+}
+
+.searhBarContainer{
+    min-width: 600px;
+}
+
+.autoCompleteOuterContainer{
+    width: 615px;
+}
+
+.container{
+    max-width: 1920px;
+    width: 100%;
+}

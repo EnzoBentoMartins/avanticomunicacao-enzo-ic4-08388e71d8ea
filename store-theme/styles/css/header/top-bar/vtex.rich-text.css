@@ -1,0 +1,21 @@
+.container--freteGratis{
+    font-size: 12px;
+    color: #B1B3B3;
+    text-align: left;
+    /* position: initial; */
+}
+
+.paragraph--freteGratis{
+    width: 626px;
+}
+
+.container--rev-rep{
+    font-size: 12px;
+    color: #B1B3B3;
+    text-align: right;
+}
+
+.paragraph--rev-rep{
+    width: 626px;
+}
+

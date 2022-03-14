@@ -1,0 +1,22 @@
+.container--deskIcons{
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: underline;
+    margin-left: 770px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.paragraph--deskIcons{
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.wrapper--deskIcons{
+    width: 200px;
+}

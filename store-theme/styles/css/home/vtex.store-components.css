@@ -1,0 +1,24 @@
+.infoCardContainer--infoCard1{
+    max-width: 1920px;
+    width: 100%;
+    height: 706px;
+}
+
+.imageElement--linkImg1,
+.imageElement--linkImg2{
+    width: 616px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.infoCardCallActionContainer--infoCard1{
+    max-width: 251px;
+    width: 100%;
+}
+
+.imageElement--img1P1,
+.imageElement--img1P2,
+.imageElement--img1P3{
+    padding-bottom: 20px;
+}
+ 

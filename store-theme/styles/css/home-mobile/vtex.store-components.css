@@ -1,0 +1,34 @@
+/* @media screen and (min-width:500px){
+    .infoCardContainer--infoCard1{
+        display: none;
+    }
+} */
+
+@media (max-width:500px){
+    .imageElementLink--linkImg1,
+    .imageElementLink--linkImg2{
+        display: none;
+    }
+
+    .infoCardContainer--infoCard1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .infoCardImage--infoCard1{
+        order: 1;
+    }
+
+    .infoCardTextContainer--infoCard1{
+        order: 2;
+    }
+
+    .container--contSlider{
+        margin-top: 30px;
+    }
+
+    .imageElements--img1,
+    .imageElements--img2{
+        height: 250px;
+    }
+}

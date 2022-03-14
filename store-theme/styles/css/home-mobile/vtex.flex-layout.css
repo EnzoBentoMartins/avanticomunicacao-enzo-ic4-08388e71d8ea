@@ -1,0 +1,8 @@
+@media (max-width:500px){
+    .flexRow--servBar,
+    .flexCol--colP1,
+    .flexCol--colP2,
+    .flexCol--colP3{
+        display: none;
+    }
+}

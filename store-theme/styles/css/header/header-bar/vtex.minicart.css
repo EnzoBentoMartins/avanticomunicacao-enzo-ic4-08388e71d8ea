@@ -1,0 +1,16 @@
+
+
+.cartIcon{
+    color: transparent;
+    background-image: url(https://avantivtexio.vtexassets.com/assets/vtex/assets-builder/avantivtexio.store-theme/0.0.0/img/mobile/Grupo4794___5f9e35fb2ab6d73637511535c8b482be.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 28px;
+    height: 25.69px;
+}
+
+.minicartWrapperContainer{
+    max-width: 80px;
+    width: 100%;
+    margin-left: 190px;
+}

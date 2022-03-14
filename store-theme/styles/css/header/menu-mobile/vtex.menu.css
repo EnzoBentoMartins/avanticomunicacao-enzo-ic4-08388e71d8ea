@@ -1,0 +1,53 @@
+.menuItem--mobileDep1,
+.menuItem--mobileDep2,
+.menuItem--mobileDep3,
+.menuItem--mobileDep4,
+.menuItem--mobileDep5,
+.menuItem--menuHome,
+.menuItem--menuNovidades{
+    border-bottom: 1px solid #EEEEEE;
+    padding-right: 420px;
+}
+
+.styledLinkContent--mobileDep1,
+.styledLinkContent--mobileDep2,
+.styledLinkContent--mobileDep3,
+.styledLinkContent--mobileDep4,
+.styledLinkContent--mobileDep5,
+.styledLinkContent--menuHome,
+.styledLinkContent--menuNovidades{
+    font-size: 14px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.styledLinkContent--menuNovidades{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.styledLinkContent--menuHome{
+    color: #441AFA;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.styledLinkContent--mobileDep1:hover,
+.styledLinkContent--mobileDep2:hover,
+.styledLinkContent--mobileDep3:hover,
+.styledLinkContent--mobileDep4:hover,
+.styledLinkContent--mobileDep5:hover{
+    color: #441AFA;
+    font-weight: bold;
+}
+
+.styledLinkIcon--mobileDep1{
+    margin-left: 234px;
+}
+
+.styledLinkIcon--mobileDep2,
+.styledLinkIcon--mobileDep3,
+.styledLinkIcon--mobileDep4,
+.styledLinkIcon--mobileDep5{
+    margin-left: 230px;
+}
